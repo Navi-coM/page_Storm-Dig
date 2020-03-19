@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "RobotoRegular";
+  src: local("Roboto Regular"),
+    url("../fonts/Roboto/RobotoRegular/Roboto-Regular.eot"),
+    url("../fonts/Roboto/RobotoRegular/Roboto-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Roboto/RobotoRegular/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto/RobotoRegular/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "RobotoMedim";
+  src: local("Roboto Medium"),
+    url("../fonts/Roboto/RobotoMedium/Roboto-Medium.eot"),
+    url("../fonts/Roboto/RobotoMedium/Roboto-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Roboto/RobotoMedium/Roboto-Medium.woff") format("woff"),
+    url("../fonts/Roboto/RobotoMedium/Roboto-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: local("Roboto Bold"), url("../fonts/Roboto/RobotoBold/Roboto-Bold.eot"),
+    url("../fonts/Roboto/RobotoBold/Roboto-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Roboto/RobotoBold/Roboto-Bold.woff") format("woff"),
+    url("../fonts/Roboto/RobotoBold/Roboto-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "RobotoLight";
+  src: local("Roboto-Light"),
+    url("../fonts/Roboto/RobotoLight/Roboto-Light.eot"),
+    url("../fonts/Roboto/RobotoLight/Roboto-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Roboto/RobotoLight/Roboto-Light.woff") format("woff"),
+    url("../fonts/Roboto/RobotoLight/Roboto-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: local("Open Sans Bold"),
+    url("../fonts/OpenSans/OpenSansBold/OpenSans-Bold.eot"),
+    url("../fonts/OpenSans/OpenSansBold/OpenSans-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSansBold/OpenSans-Bold.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSansBold/OpenSans-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: local("Open Sans SemiBold"),
+    url("../fonts/OpenSans/OpenSansSemiBold/OpenSans-SemiBold.eot"),
+    url("../fonts/OpenSans/OpenSansSemiBold/OpenSans-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSansSemiBold/OpenSans-SemiBold.woff")
+      format("woff"),
+    url("../fonts/OpenSans/OpenSansSemiBold/OpenSans-SemiBold.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

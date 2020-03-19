@@ -1,0 +1,98 @@
+// My Mixins
+//---------------------------
+
+//---- Шрифт Меню --------
+@mixin font-menu {
+  font-family: $base-font-face;
+  font-size: $menu-font-size;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+//---- Выравнивание по центру ---------
+@mixin aline-center {
+  display: flex;
+  justify-content: center;
+}
+
+//---- Стрелки в выпадающем меню ----------
+@mixin arrow-item-menu {
+  content: "";
+  background-image: url(../img/arrow-white.png);
+  background-size: cover;
+  position: absolute;
+  height: 6px;
+  width: 10px;
+  cursor: pointer;
+}
+
+//------ Скрытое выпадающее меню ----------
+@mixin hidden-sub-menu {
+  opacity: 0;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 200px;
+  padding: 15px;
+  background: $base-background-color;
+  text-align: left;
+  box-shadow: 0 0 14px 0px rgba(195, 181, 181, 0.43);
+  transition: all 0.4s;
+}
+
+//====================================================================================
+// FontAwesome Mixins
+// --------------------------
+
+@mixin fa-icon {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+@mixin fa-icon-rotate($degrees, $rotation) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
+  transform: rotate($degrees);
+}
+
+@mixin fa-icon-flip($horiz, $vert, $rotation) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation}, mirror=1)";
+  transform: scale($horiz, $vert);
+}
+
+// Only display content to screen readers. A la Bootstrap 4.
+//
+// See: http://a11yproject.com/posts/how-to-hide-content/
+
+@mixin sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+// Use in conjunction with .sr-only to only display content when it's focused.
+//
+// Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+//
+// Credit: HTML5 Boilerplate
+
+@mixin sr-only-focusable {
+  &:active,
+  &:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
+}
