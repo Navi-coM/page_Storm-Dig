@@ -15,7 +15,7 @@ $(".men-slider").slick({
   slidesToShow: 4
 });
 
-$("main-slider-women").slick({
+$(".women-slider").slick({
   dots: true,
   autoplay: true,
   infinity: true,
