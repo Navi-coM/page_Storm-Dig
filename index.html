@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Test page</title>
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="container header-content">
         <div class="header-logo">
           <a href="#" target="_self">
             <img src="img/header_logo.png" alt="Moto Logo" />
@@ -22,7 +24,7 @@
             <ul>
               <li><a ghref="#">Home page</a></li>
               <li class="addition-items">
-                <a ghref="#">Shop online</a>
+                <a href="#">Shop online</a>
                 <ul class="sub-menu">
                   <li>
                     <a href="http://google.com.ua" target="_blank">Man</a>
@@ -31,9 +33,9 @@
                   <li><a href="#">Specialties</a></li>
                 </ul>
               </li>
-              <li><a ghref="#">About</a></li>
-              <li><a ghref="#">News</a></li>
-              <li><a ghref="#">Contact</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -65,10 +67,87 @@
       </div>
     </header>
 
-    <main></main>
+    <main>
+      <div class="container">
+        <div class="main-slider">
+          <div class="main-slider_slide">
+            <img src="img/Slide1.png" alt="Slide 1" />
+          </div>
+          <div class="main-slider_slide">
+            <img src="img/Slide2.png" alt="Slide 2" />
+          </div>
+          <div class="main-slider_slide">
+            <img src="img/Slide3.png" alt="Slide 3" />
+          </div>
+        </div>
+      </div>
+      <div class="main-icon">
+        <div class="main-icon_link main-icon_link_leather">
+          <img src="/img/main_icon_leather.png" alt="Leather icon" />
+          <span>Handcrafted products</span>
+        </div>
+        <div class="main-icon_link main-icon_link_sirt">
+          <img src="img/main_icon_tshirt.png" alt="Tshirt icon" />
+          <span>Limited edition</span>
+        </div>
+        <div class="main-icon_link main-icon_link_quality">
+          <img src="img/main_icon_qualit.png" alt="Quality icon" />
+          <span>Guaranteed quality</span>
+        </div>
+      </div>
+      <div class="main-content">
+          <div class="container">
+              <h2 class="gender-title">Men's tops</h2>
+            <div class="men-slider">
+              <div class="men-slider_slide">
+                <img src="img/men-slide1.png" alt="" />
+                <p>TRUE DESTINY</p>
+                <p>$ 595.00 USD</p>
+                <div class="card">
+                  <button>Add to card</button>
+                  <button>Like</button>
+                </div>
+              </div>
+              <div class="men-slider_slide">
+                <img src="img/men-slide2.png" alt="" />
+                <p>TRUE DESTINY</p>
+                <p>$ 595.00 USD</p>
+                <div class="card">
+                  <button>Add to card</button>
+                  <button>Like</button>
+                </div>
+              </div>
+              <div class="men-slider_slide">
+                <img src="" alt="" />
+                <p>TRUE DESTINY</p>
+                <p>$ 595.00 USD</p>
+                <div class="card">
+                  <button>Add to card</button>
+                  <button>Like</button>
+                </div>
+              </div>
+              <div class="men-slider_slide">
+                <img src="" alt="" />
+                <p>TRUE DESTINY</p>
+                <p>$ 595.00 USD</p>
+                <div class="card">
+                  <button>Add to card</button>
+                  <button>Like</button>
+                </div>
+              </div>
+            </div>
+            <h2 class="gender-title">Women's tops</h2>
+            <div class="main-slider-women">
+              
+            </div>
+          </div>
+        </main>
+      </div>
+
 
     <footer></footer>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="slick/slick.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
