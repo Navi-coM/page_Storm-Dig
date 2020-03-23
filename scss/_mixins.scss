@@ -9,6 +9,17 @@
   color: #fff;
 }
 
+//------- Шрифт Title  в разделах  ----------
+@mixin font-title-block {
+  font-family: $base-font-face;
+  font-size: 1.4vmax;
+  color: #0b0b0b;
+  text-transform: uppercase;
+  margin: 15px 0;
+  padding-left: 50px;
+  letter-spacing: 8px;
+}
+
 //---- Выравнивание по центру ---------
 @mixin aline-center {
   display: flex;
